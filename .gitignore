@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+.env.local
+
+# Vector database
+vectordb/
+*.faiss
+*.pkl
+
+# Private documents
+data/docs/
+data/private/
+data/*.pdf
+
+# Allow sample documents
+!data/sample_docs/
+!data/sample_docs/*.pdf
+
+# Streamlit config
+.streamlit/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor configs
+.vscode/
+.idea/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ollama local data
+.ollama/
