@@ -34,6 +34,8 @@ pip install -r requirements.txt
 
 ollama pull phi3:mini
 
+## Add your own documents to a folder data/
+
 ## How to Run 
 
 # Build vector database (run once or when PDFs change)
